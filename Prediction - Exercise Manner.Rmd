@@ -1,5 +1,5 @@
 ---
-title: "Predition Models: Quality of Exercising"
+title: 'Prediction Models: Quality of Exercising'
 author: "Paloma Urbano"
 date: "October 18, 2016"
 output: html_document
@@ -18,7 +18,7 @@ This project predicts the manner in which a set of individuals exercise. We use 
 
 The model was built using random forest and cross validated using the confusionMatrix command in R. The estimated out of sample error is 0.69%. 
 
-The model shows 0.991164 of accuraccy and it was able to predict the 20 different test cases of the test data set.
+The model shows 0.991164 of accuracy and it was able to predict the 20 different test cases of the test data set.
 
 
 ## Data Preparation
@@ -76,7 +76,7 @@ We took the training data set and divided into 2 sets:
 * 1.- 70% of the training data becomes our training data set
 * 2.- 30% of the training data will be used to test the model
 
-We use random forest to fiot our model. 
+We use random forest to fit our model. 
 
 
 ```{r}
@@ -96,7 +96,7 @@ load("~/model.rda")
 
 
 ## Model Validation
-The model was validated showing the following accuraccy measurements:
+The model was validated showing the following accuracy measurements:
 
 ```{r}
 # Validate model
@@ -119,8 +119,8 @@ qplot(classe, pred, colour=classe, data=train_test)
 
 
 
-## Run Predition
-Considering the high level of accuraccy we used this model to predict the test data set.Results of the prediction are show here:
+## Run Prediction
+Considering the high level of accuracy we used this model to predict the test data set.Results of the prediction are show here:
 
 ```{r}
 # Predict the test data set
@@ -131,6 +131,6 @@ pred1
 
 
 ## Summary
-This exercise goes through all steps of fitting a predictive model. Creating models with the data set proved very computational intensive. I was surprised  of the high accuraccy resulted out of just one model.  
+This exercise goes through all steps of fitting a predictive model. Creating models with the data set proved very computational intensive. I was surprised  of the high accuracy resulted out of just one model.  
 
 
