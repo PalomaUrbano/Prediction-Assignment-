@@ -16,7 +16,7 @@ The model shows 0.991164 of accuraccy and it was able to predict the 20 differen
 The Prediction - Exercise Manner.htlm and Prediction - Exercise Manner.Rmd have been loaded for completion, however are more cumbersome to review
 
 ## Files provided:
-*1.- Prediction_-_Exercise_Manner.pdf  
-*2.- Prediction_-_Exercise_Manner.html  
-*3.- Prediction_-_Exercise_Manner.Rmd  
+* 1.- Prediction_-_Exercise_Manner.pdf  
+* 2.- Prediction_-_Exercise_Manner.html  
+* 3.- Prediction_-_Exercise_Manner.Rmd  
 
